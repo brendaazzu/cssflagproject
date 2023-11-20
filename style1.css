@@ -1,0 +1,1579 @@
+body > * {
+    display: none;
+}
+
+/* 1  ---------------------------------------------------*/ 
+
+.brflag1 {
+    position: relative;
+    background: linear-gradient(to right, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag1 .losangue1:before, .brflag1 .losangue1:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag1 .losangue1:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag1 .losangue1:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag1 .circle1 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to left, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag1 .circle1:before, .brflag1 .circle1:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag1 .circle1:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag1 .circle1:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag1 .circle1 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag1 .circle1 .stripe1 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag1 .circle1 .stripe1 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+
+/* 2 ----------------------------------------------------- */
+
+.brflag2 {
+    position: relative;
+    background: linear-gradient(to right, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag2 .losangue2:before, .brflag2 .losangue2:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag2 .losangue2:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag2 .losangue2:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag2 .circle2 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to top, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag2 .circle2:before, .brflag2 .circle2:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag2 .circle2:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag2 .circle2:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag2 .circle2 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag2 .circle2 .stripe2 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag2 .circle2 .stripe2 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 3  ---------------------------------------------------*/ 
+
+.brflag3 {
+    position: relative;
+    background: linear-gradient(to right, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag3 .losangue3:before, .brflag3 .losangue3:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag3 .losangue3:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag3 .losangue3:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag3 .circle3 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to bottom, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag3 .circle3:before, .brflag3 .circle3:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag3 .circle3:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag3 .circle3:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag3 .circle3 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag3 .circle3 .stripe3 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag3 .circle3 .stripe3 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 4  ---------------------------------------------------*/
+
+.brflag4 {
+    position: relative;
+    background: linear-gradient(to right, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag4 .losangue4:before, .brflag4 .losangue4:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag4 .losangue4:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag4 .losangue4:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag4 .circle4 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to right, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag4 .circle4:before, .brflag4 .circle4:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag4 .circle4:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag4 .circle4:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag4 .circle4 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag4 .circle4 .stripe4 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag4 .circle4 .stripe4 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 5  ---------------------------------------------------*/
+
+.brflag5 {
+    position: relative;
+    background: linear-gradient(to left, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag5 .losangue5:before, .brflag5 .losangue5:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag5 .losangue5:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag5 .losangue5:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag5 .circle5 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to left, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag5 .circle5:before, .brflag5 .circle5:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag5 .circle5:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag5 .circle5:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag5 .circle5 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag5 .circle5 .stripe5 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag5 .circle5 .stripe5 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 6  ---------------------------------------------------*/
+
+.brflag6 {
+    position: relative;
+    background: linear-gradient(to left, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag6 .losangue6:before, .brflag6 .losangue6:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag6 .losangue6:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag6 .losangue6:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag6 .circle6 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to top, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag6 .circle6:before, .brflag6 .circle6:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag6 .circle6:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag6 .circle6:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag6 .circle6 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag6 .circle6 .stripe6 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag6 .circle6 .stripe6 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 7  ---------------------------------------------------*/
+
+.brflag7 {
+    position: relative;
+    background: linear-gradient(to left, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag7 .losangue7:before, .brflag7 .losangue7:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag7 .losangue7:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag7 .losangue7:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag7 .circle7 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to bottom, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag7 .circle7:before, .brflag7 .circle7:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag7 .circle7:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag7 .circle7:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag7 .circle7 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag7 .circle7 .stripe7 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag7 .circle7 .stripe7 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 8  ---------------------------------------------------*/
+
+.brflag8 {
+    position: relative;
+    background: linear-gradient(to left, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag8 .losangue8:before, .brflag8 .losangue8:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag8 .losangue8:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag8 .losangue8:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag8 .circle8 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to right, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag8 .circle8:before, .brflag8 .circle8:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag8 .circle8:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag8 .circle8:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag8 .circle8 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag8 .circle8 .stripe8 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag8 .circle8 .stripe8 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 9  ---------------------------------------------------*/
+
+.brflag9 {
+    position: relative;
+    background: linear-gradient(to bottom, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag9 .losangue9:before, .brflag9 .losangue9:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag9 .losangue9:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag9 .losangue9:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag9 .circle9 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to left, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag9 .circle9:before, .brflag9 .circle9:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag9 .circle9:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag9 .circle9:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag9 .circle9 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag9 .circle9 .stripe9 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag9 .circle9 .stripe9 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 10 ---------------------------------------------------*/
+
+.brflag10 {
+    position: relative;
+    background: linear-gradient(to bottom, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag10 .losangue10:before, .brflag10 .losangue10:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag10 .losangue10:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag10 .losangue10:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag10 .circle10 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to top, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag10 .circle10:before, .brflag10 .circle10:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag10 .circle10:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag10 .circle10:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag10 .circle10 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag10 .circle10 .stripe10 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag10 .circle10 .stripe10 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 11 ---------------------------------------------------*/
+
+.brflag11 {
+    position: relative;
+    background: linear-gradient(to bottom, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag11 .losangue11:before, .brflag11 .losangue11:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag11 .losangue11:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag11 .losangue11:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag11 .circle11 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to bottom, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag11 .circle11:before, .brflag11 .circle11:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag11 .circle11:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag11 .circle11:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag11 .circle11 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag11 .circle11 .stripe11 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag11 .circle11 .stripe11 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 12 ---------------------------------------------------*/
+
+.brflag12 {
+    position: relative;
+    background: linear-gradient(to bottom, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag12 .losangue12:before, .brflag12 .losangue12:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag12 .losangue12:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag12 .losangue12:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag12 .circle12 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to right, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag12 .circle12:before, .brflag12 .circle12:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag12 .circle12:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag12 .circle12:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag12 .circle12 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag12 .circle12 .stripe12 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag12 .circle12 .stripe12 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 13 ---------------------------------------------------*/
+
+.brflag13 {
+    position: relative;
+    background: linear-gradient(to top, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag13 .losangue13:before, .brflag13 .losangue13:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag13 .losangue13:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag13 .losangue13:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag13 .circle13 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to left, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag13 .circle13:before, .brflag13 .circle13:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag13 .circle13:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag13 .circle13:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag13 .circle13 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag13 .circle13 .stripe13 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag13 .circle13 .stripe13 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 14 ---------------------------------------------------*/
+
+.brflag14 {
+    position: relative;
+    background: linear-gradient(to top, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag14 .losangue14:before, .brflag14 .losangue14:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag14 .losangue14:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag14 .losangue14:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag14 .circle14 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to top, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag14 .circle14:before, .brflag14 .circle14:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag14 .circle14:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag14 .circle14:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag14 .circle14 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag14 .circle14 .stripe14 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag14 .circle14 .stripe14 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 15 ---------------------------------------------------*/
+
+.brflag15 {
+    position: relative;
+    background: linear-gradient(to top, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag15 .losangue15:before, .brflag15 .losangue15:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag15 .losangue15:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag15 .losangue15:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag15 .circle15 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to bottom, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag15 .circle15:before, .brflag15 .circle15:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag15 .circle15:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag15 .circle15:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag15 .circle15 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag15 .circle15 .stripe15 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag15 .circle15 .stripe15 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+/* 16 ---------------------------------------------------*/
+
+.brflag16 {
+    position: relative;
+    background: linear-gradient(to top, #009c3b, #0b865f, #0c7c86);
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
+
+.brflag16 .losangue16:before, .brflag16 .losangue16:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 50px;
+    right: 25px;
+    background: linear-gradient(to right, #ffdf00, #fbe138); 
+}
+
+.brflag16 .losangue16:before {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 65px solid #ffdf00;
+    top: 10px;
+}
+
+.brflag16 .losangue16:after {
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 65px solid #ffdf00;
+    bottom: 10px;
+}
+
+.brflag16 .circle16 {
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(to right, #002776, #172d9f, #2cc1ce);
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -45px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.brflag16 .circle16:before, .brflag16 .circle16:after {
+    content: '';
+    width: 90px;
+    height: 40px;
+    transform: rotate(14deg);
+}
+
+.brflag16 .circle16:before {
+    margin-top: -20px;
+    margin-left: -45px;
+    background: #fff;
+}
+
+.brflag16 .circle16:after {
+    margin-top: -10px;
+    margin-left: -48px;
+    background-color: #002776;
+}
+
+.brflag16 .circle16 span {
+    color: #165017;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brflag16 .circle16 .stripe16 {
+    width: 110px;
+    height: 11px;
+    background: linear-gradient(to right, #ededed , #f7f7f7, #ffffff);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    border-radius: 50% 50% 0 0; 
+}
+
+.brflag16 .circle16 .stripe16 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    font-size: 6.5px;
+    line-height: 11px;
+    color: #165017;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
